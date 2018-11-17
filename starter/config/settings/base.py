@@ -26,6 +26,8 @@ SECRET_KEY = '!-0qap!_1j=ar!t*spigw6hx+y+$y^!_ml50=bv^r_)q3*hr=&'
 ALLOWED_HOSTS = []
 
 from .installed_apps import INSTALLED_APPS
+from .configurations import *
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -76,6 +78,15 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+MEDIA_URL = '/media/'
 
 
 # Internationalization

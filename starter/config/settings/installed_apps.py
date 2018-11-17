@@ -9,10 +9,17 @@ DJANGO_APPS = [
             ]
 
 # THIRD PARTY APPS
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = [
+                        'rest_framework',
+                        'django_filters',
+                        'rest_framework_swagger',
+                    ]
 
 # Apps created by you in this project
-CREATED_APPS = []
+CREATED_APPS = [
+                    'accounts',
+                    'factory',
+                ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + CREATED_APPS
 
