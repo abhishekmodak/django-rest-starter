@@ -27,4 +27,12 @@ EMAIL_HOST_USER = 'sendgrid_username'
 EMAIL_HOST_PASSWORD = 'sendgrid_password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-SENDER = 'sender_email'
+EMAIL_SENDER = 'sender_email'
+
+
+SLACK_CHANNEL = 'https://hooks.slack.com/services/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',
+
+TWILIO_ACCOUNT_SID = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+TWILIO_AUTH_TOKEN = 'your_auth_token'
+SMS_SENDER = "sender_mobile_number" #with country code
+
