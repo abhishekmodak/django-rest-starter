@@ -1,0 +1,4 @@
+# All common packages to be mentioned here
+
+Django==2.1.3
+pytz==2018.7

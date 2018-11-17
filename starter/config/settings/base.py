@@ -25,16 +25,7 @@ SECRET_KEY = '!-0qap!_1j=ar!t*spigw6hx+y+$y^!_ml50=bv^r_)q3*hr=&'
 
 ALLOWED_HOSTS = []
 
-# Application definition
-
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
+from .installed_apps import INSTALLED_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
